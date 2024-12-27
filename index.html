@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day6-JS Task</title>
+</head>
+
+<body>
+    <p class="title">JS Day 6 Task</p>
+
+    <form>
+        <input type="number" class="input1" placeholder="أدحل الرقم الأول">
+        <p class="alert">أدحل الرقم الأول</p>
+        <input type="number" class="input2" placeholder="أدحل الرقم الثاني">
+        <p class="alert">أدحل الرقم الثاني</p>
+        <input type="number" class="input3" placeholder="أدحل الرقم الثالث">
+        <p class="alert">أدحل الرقم الثالث</p>
+        <div class="btn-con">
+            <input type="button" value="قسمة" onclick="handleButton(this)" sign="➗">
+            <input type="button" value="ضرب" onclick="handleButton(this)" sign="✖️">
+            <input type="button" value="جمع" onclick="handleButton(this)" sign="➕">
+        </div>
+        <p class="result"></p>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
